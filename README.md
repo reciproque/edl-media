@@ -11,9 +11,9 @@ Airtable : https://airtable.com/appsR54er8q9wjsqn/tblgtBkVl9fsJAPUq/viwOXSVHofLx
 
 4. Utiliser le script Python EXPORT-concat-tables-liaison.py pour additionner toutes les tables de liaison placées dans le dossier tables. -> La table de sortie sera LIAISON.csv
 
-5. Utiliser le script Python EXPORT-airtable-download-url.py pour télécharger toutes les images à partir du csv url-and-names.csv. -> les images sont automatiquement téléchargées et rangées dans des dossiers par année, HGA1-brut, HGA2-brut et HGA3-brut.
+5. Utiliser le script Python EXPORT-airtable-download-url.py pour télécharger toutes les images à partir du csv url-and-names.csv. -> les images sont automatiquement téléchargées et rangées dans des dossiers par année, HGA1, HGA2 et HGA3.
 
-6. Utiliser le script Python EXPORT-null-filler.py pour remplacer toutes les cellules vides de MASTER - VUE EXPORT.csv par “null”. Le fichier de sortie sera MASTER.csv.
+6. Utiliser le script Python EXPORT-null-filler.py pour remplacer toutes les cellules vides de MASTER - VUE EXPORT.csv par “null” et insérer des espaces entre les tags des colonnes Matériaux et Techniques. Le fichier de sortie sera MASTER.csv.
 Traiter toutes les images, par exemple avec l’outil XnConvert. 
 
 Paramètres de conversion :

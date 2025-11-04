@@ -17,7 +17,7 @@ with open(input_csv, newline='', encoding='utf-8') as infile:
 
         annee = (row.get("Année", "")).strip()
 
-        if annee not in ("HGA1-brut", "HGA2-brut", "HGA3-brut"):
+        if annee not in ("HGA1", "HGA2", "HGA3"):
             print(f"⚠️ Année inconnue '{annee}' pour {filename}, ignoré")
             continue
 
